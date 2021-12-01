@@ -1,0 +1,11 @@
+node_modules
+build
+.env
+.files
+*.log*
+# ecosystem.config.js
+*.DS_Store
+.history
+files
+
+firebase.json

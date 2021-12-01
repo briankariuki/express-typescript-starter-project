@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "lib": ["es6", "esnext.asynciterable"],
+      "typeRoots": ["./node_modules/@types", "src/types"],
+      "types": [],
+      "allowSyntheticDefaultImports": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "node",
+      "module": "commonjs",
+      "pretty": true,
+      "sourceMap": true,
+      "outDir": "./build",
+      "allowJs": true,
+      "noEmit": false,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": true
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["./node_modules", "./.history"],
+    "rules": {
+      
+      "prefer-const": [true, {
+        "destructuring": "any"
+      }],
+    },
+    "ts-node": {
+      "compilerOptions": {
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+      }
+    }
+  }

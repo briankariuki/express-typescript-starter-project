@@ -1,0 +1,13 @@
+{
+    "extends": "./tsconfig.json",
+    "include": ["**/*.ts", "**/*.js", "**/src/**/*.ts"],
+    "compilerOptions": {
+      "checkJs": true
+    },
+    "rules": {
+      "prefer-const": [true, {
+        "destructuring": "any"
+      }],
+    }
+  }
+  
